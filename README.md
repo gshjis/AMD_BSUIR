@@ -1,65 +1,65 @@
-# AMD Project Setup
+# Настройка проекта AMD
 
-This guide will help you set up and run the AMD project without using Poetry.
+Этот гайд поможет вам настроить и запустить лабораторную работу #1
 
-## Prerequisites
+## Предварительные условия
 
-- Python 3.8 or higher
+- Python 3.12 или выше
 - pip
 
-## Installation
+## Установка
 
-1. **Clone the repository**
+1. **Клонирование репозитория**
 
    ```bash
    git clone git@github.com:gshjis/AMD_BSUIR.git
    cd AMD_BSUIR
    ```
 
-2. **Create a virtual environment**
+2. **Создание виртуального окружения**
 
    ```bash
    python3 -m venv venv
    ```
 
-3. **Activate the virtual environment**
+3. **Активация виртуального окружения**
 
-   - On Windows:
+   - На Windows:
 
      ```bash
      venv\Scripts\activate
      ```
 
-   - On macOS and Linux:
+   - На macOS и Linux:
 
      ```bash
      source venv/bin/activate
      ```
 
-4. **Install dependencies**
+4. **Установка зависимостей**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-## Running the Project
+## Запуск проекта
 
-1. **Run the process.py script**
+1. **Запуск скрипта process.py**
 
    ```bash
    python process.py
    ```
 
-2. **View the Jupyter Notebook**
+2. **Просмотр Jupyter Notebook**
 
-   Navigate to the `amd` directory and open `Lab1.ipynb` with Jupyter Notebook.
+   Перейдите в директорию `amd` и откройте `Lab1.ipynb` с помощью Jupyter Notebook.
 
    ```bash
    cd amd
    jupyter notebook Lab1.ipynb
    ```
 
-## Additional Information
+## Дополнительная информация
 
-- The project includes a video `plot_lab1.mp4` in the `amd` directory.
-- Ensure you have the required libraries installed as specified in `requirements.txt`.
+- В проекте включено видео `plot_lab1.mp4` в директории `amd`.
+- Убедитесь, что у вас установлены необходимые библиотеки, как указано в `requirements.txt`.
