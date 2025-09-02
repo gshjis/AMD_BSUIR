@@ -44,13 +44,7 @@
 
 ## Запуск проекта
 
-1. **Запуск скрипта process.py**
-
-   ```bash
-   python process.py
-   ```
-
-2. **Просмотр Jupyter Notebook**
+1. **Просмотр Jupyter Notebook**
 
    Перейдите в директорию `amd` и откройте `Lab1.ipynb` с помощью Jupyter Notebook.
 
